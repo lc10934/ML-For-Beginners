@@ -15,6 +15,6 @@ while True:
     user = input("> ")
     if user== "bye":
         break
-    response = random.choices(random_responses)
-    print(response)
+    
+    print(random.choices(random_responses))
 print("It was nice talking to you, goodbye!")
